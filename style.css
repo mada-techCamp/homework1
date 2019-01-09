@@ -1,0 +1,138 @@
+html{
+    bottom:0;
+   background-image: linear-gradient(to top left, #212735 0%, #343d4d 100%);
+   background-repeat: no-repeat;
+  background-size: cover;
+
+  color:white;
+  display:flex; 
+  text-align:right;
+  min-height: 150vh;
+  margin: 0;
+  justify-content:flex-end;
+}
+p{
+    width:500px;
+    font-size: 16px;
+
+}
+th ,td{
+    width:100px;
+    border-bottom: 2px solid white;
+}
+tr:hover{
+   background-color:white;
+   color:black;
+}
+table{ 
+   margin-left:200px; 
+text-align: center;
+}
+iframe{
+    position: absolute;
+   right:800px;
+}
+.content{
+    padding-top:70px;
+    padding-right:100px; 
+}
+img{
+    position: absolute;
+   
+}
+.mercury{
+    bottom:90px;
+    }
+.mercury-orb{
+    height:100px;
+    width:100px; 
+}
+.venus{
+    bottom:140px;
+}
+.venus-orb{
+    height:150px;
+    width:150px;
+}
+.earth{
+    /* left:100px;
+    top:140px; */
+    bottom:190px;
+}
+.earth-orb{
+    height:200px;
+    width:200px; 
+}
+.mars{
+    bottom:240px;  
+}
+.mars-orb{
+    height:250px;
+    width:250px; 
+}
+
+.Jupiter{
+    bottom:290px; 
+}
+.Jupiter-orb{
+    height:300px;
+    width:300px; 
+}
+.saturn{
+    bottom:340px; 
+}
+.saturn-orb{
+    height:350px;
+    width:350px; 
+}
+.uranus{
+    bottom:390px; 
+}
+.uranus-orb{
+    height:400px;
+    width:400px; 
+}
+.Neptune{
+    bottom:440px;  
+}
+.Neptune-orb{
+    height:450px;
+    width:450px;   
+}
+textarea{
+    width:300px;
+    height:100px
+}
+input{
+    text-align: end;
+}
+
+.orbit{
+    /* position: relative; */
+    border-radius:50%;
+    border:1px solid rgb(99, 97, 97);
+    border-top-color: linear-gradient(to right, dodgerblue , dodgerblue); 
+    display:flex; 
+    align-items: center;
+      justify-content:center;
+    animation: circle 20s linear infinite;
+    /* left: 0;
+    right: 0; */
+}
+
+
+.sun{
+right:200px;
+bottom:200px;
+}
+
+.container{
+position: absolute;
+right:800px;
+top:100px;
+}
+@keyframes circle {
+    to {
+      transform: rotate(360deg);
+    }
+  }
